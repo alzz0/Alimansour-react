@@ -12,15 +12,19 @@ class Footer extends React.Component {
           <Container style={{ margin: "10px auto" }}>
             <Row>
               <Col>Copyright &copy; Ali Mansour 2018</Col>
-              <Col><a href="https://www.linkedin.com/in/ali-mansour-99402a126/" target="_blank>">
+              <Col>
+                <a
+                  href="https://www.linkedin.com/in/ali-mansour-99402a126/"
+                  target="_blank>"
+                >
                   <img
                     style={{ width: "30px" }}
                     src="http://www.pngall.com/wp-content/uploads/2016/07/Linkedin-Free-Download-PNG.png"
                     alt="LinkedIn"
                   />
-                </a></Col>
+                </a>
+              </Col>
               <Col>
-                
                 <a href="https://github.com/alzz0" target="_blank>">
                   <img
                     style={{ width: "30px" }}
@@ -29,12 +33,18 @@ class Footer extends React.Component {
                   />
                 </a>
               </Col>
-              <Col><a href="https://twitter.com/AliMansour0?lang=en0" target="_blank>">
+              <Col>
+                <a
+                  href="https://twitter.com/AliMansour0?lang=en0"
+                  target="_blank>"
+                >
                   <img
                     style={{ width: "30px" }}
                     src="http://pngimg.com/uploads/twitter/twitter_PNG2.png"
                     alt="Twitter"
-                  /></a></Col>
+                  />
+                </a>
+              </Col>
             </Row>
           </Container>
         </Zoom>
@@ -44,5 +54,3 @@ class Footer extends React.Component {
 }
 
 export default Footer;
-
-
