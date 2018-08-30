@@ -51,7 +51,7 @@ class About extends React.Component {
                 Born and raised in the capital of Alberta, Canada. Check out my
                 social media accounts or my React.JS UI components at Github .
                 Feel free to take a look at my latest projects on the My Work
-                page. I am very passionaite on my work and I capitilize my
+                page. I am very passionate on my work and I capitilize my
                 passion!
               </p>
             </Container>
@@ -61,13 +61,26 @@ class About extends React.Component {
         <aboutSection3>
           <Container>
             <Row>
-              <Jumbotron fluid style={{background:"none"}}>
-        <Container fluid>
-          <h1 style={{fontSize:"100px", fontWeight:"700",color:"#00b7ff"}}className="display-3">12 +</h1>
-          <p className="lead"><h1 style={{color:"#00b7ff"}}>PROJECTS COMPLETED</h1>
-I have completed over 100 projects including iOS/Android apps, Mac/Windows programs, Unity/Unreal video games, and web apps for clients.</p>
-        </Container>
-      </Jumbotron>
+              <Jumbotron fluid style={{ background: "none" }}>
+                <Container fluid>
+                  <h1
+                    style={{
+                      fontSize: "100px",
+                      fontWeight: "700",
+                      color: "#00b7ff"
+                    }}
+                    className="display-3"
+                  >
+                    12 +
+                  </h1>
+                  <p className="lead">
+                    <h1 style={{ color: "#00b7ff" }}>PROJECTS COMPLETED</h1>
+                    I have completed over 12 projects including client side and
+                    server side. Creating full stack web applications, deployed
+                    and ready for porduction.
+                  </p>
+                </Container>
+              </Jumbotron>
             </Row>
           </Container>
         </aboutSection3>
